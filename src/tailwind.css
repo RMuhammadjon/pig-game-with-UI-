@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn1 {
+      @apply bg-red-100 w-[160px] h-14 rounded-full text-[20px] ;
+    }
+
+    .btn2 {
+        @apply bg-red-100 w-[140px] h-12 rounded-full text-[20px] mt-5;
+      }
+      .winner {
+        @apply flex items-center content-center text-white px-2  w-[200px] h-12 rounded-full text-[20px] mt-5;
+      }
+    
+  }
